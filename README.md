@@ -1,11 +1,11 @@
-# Master_JAVA_Eoi
+# Master_Eoi_Java
 ## _JAVA Bootcamp exercises_
 
 [![N|Solid](https://programamos.es/web/wp-content/uploads/2015/03/logo-eoi.jpg)](https://programamos.es)
 
 # Intro
 
-The purpose of this GitHub repository is to document the work I completed during a Java bootcamp. It includes detailed information on the fundamental concepts of programming, as well as topics specific to Java and object-oriented programming, relational databases, and front-end development tools. In addition, the repository provides information on testing in Java that I studied during the bootcamp. The repository also showcases my skills in Spring and Spring Boot, which were demonstrated through the development of a web MVC application.
+The purpose of this GitHub repository is to document the work I completed during a Java bootcamp at the Escuela de Organización Industrial. The repository contains comprehensive information about the fundamental concepts of programming, Java and object-oriented programming, relational databases, and front-end development tools. Additionally, the repository includes the exercises I completed during the bootcamp to showcase my practical skills in these areas.
 
 ## Content
 

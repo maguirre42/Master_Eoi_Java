@@ -3,18 +3,19 @@ import java.util.function.Consumer;
 
 public class EjemploLambda {
     public static void main(String[] args) {
+        // Declaracion ArrayList
         ArrayList<Integer> cifras = new ArrayList<>();
         cifras.add(89);
         cifras.add(8);
         cifras.add(9);
         cifras.add(25);
 
-        // sin lambda
+        // Recorrer sin lambda
         for (Integer valor : cifras) {
             System.out.println("valor = " + valor);
         }
 
-        // con lambda
+        // Recorrer con lambda
         cifras.forEach((n) -> System.out.println("n = " + n));
 
         // bloque

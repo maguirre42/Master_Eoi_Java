@@ -1,7 +1,7 @@
 # Master_Eoi_Java
 ## _JAVA Bootcamp exercises_
 
-[![N|Solid](https://programamos.es/web/wp-content/uploads/2015/03/logo-eoi.jpg)](https://www.eoi.es/es/cursos/90766/curso-de-java-presencial-virtual-online-ambito-nacional)
+[![N|Solid]([https://programamos.es/web/wp-content/uploads/2015/03/logo-eoi.jpg](https://www.eoi.es/sites/default/files/logo-eoi.png))](https://www.eoi.es/es/cursos/90766/curso-de-java-presencial-virtual-online-ambito-nacional)
 
 # Intro
 

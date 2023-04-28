@@ -14,3 +14,9 @@ During this bootcamp, I was introduced to the fundamental concepts of programmin
 Following this, I progressed to learning about relational databases such as MySQL and SQL query syntax. The training modules also included front-end development tools, such as HTML, CSS, Bootstrap, and Thymeleaf, as well as testing with JUnit for Java.
 
 In the second part of the bootcamp, I was able to further develop my skills in Spring and Spring Boot, which enabled me to create a web MVC application. This project will be documented in the same GitHub account at a later time... 
+
+## Structure
+
+- The repository includes directories that simulate an IntelliJ IDEA IDE environment which I used during my bootcamp.
+- Inside each directory, you can find topics related to Java programming concepts and exercises.
+- All files and directories are commented to facilitate understanding.

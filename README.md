@@ -1,2 +1,16 @@
-# Master_Eoi_Java
-## Moises David Aguirre Pardo
+# Master_JAVA_Eoi
+## _JAVA Bootcamp exercises_
+
+[![N|Solid](https://programamos.es/web/wp-content/uploads/2015/03/logo-eoi.jpg)](https://programamos.es)
+
+# Intro
+
+The purpose of this GitHub repository is to document the work I completed during a Java bootcamp. It includes detailed information on the fundamental concepts of programming, as well as topics specific to Java and object-oriented programming, relational databases, and front-end development tools. In addition, the repository provides information on testing in Java that I studied during the bootcamp. The repository also showcases my skills in Spring and Spring Boot, which were demonstrated through the development of a web MVC application.
+
+## Content
+
+During this bootcamp, I was introduced to the fundamental concepts of programming that are common to any language. This included a range of topics, from strings, loops, data types, variables, methods, and functions, to more advanced concepts in Java and object-oriented programming such as inheritance, polymorphism, and method overloading. In addition, I gained knowledge in various data types used in Java, such as ArrayLists, Streams, Interfaces, and Enumerations.
+
+Following this, I progressed to learning about relational databases such as MySQL and SQL query syntax. The training modules also included front-end development tools, such as HTML, CSS, Bootstrap, and Thymeleaf, as well as testing with JUnit for Java.
+
+In the second part of the bootcamp, I was able to further develop my skills in Spring and Spring Boot, which enabled me to create a web MVC application. This project will be documented in the same GitHub account at a later time... 

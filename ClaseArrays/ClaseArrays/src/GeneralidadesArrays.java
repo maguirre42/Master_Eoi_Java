@@ -1,10 +1,12 @@
 public class GeneralidadesArrays {
     public static void main(String[] args) {
-        // Declaraciones
+        // Declaracion
         String[] colores1 = {"azul","rojo","verde","amarillo","naranja"};
         String[] colores2 = new String[5];
+        
         // inversa String[] colores1 = {"naranja","amarillo","verde","rojo","azul"};
-        // Recorrer las matrices
+        
+        // Recorrer un Array
         for(int i = 0; i < colores1.length; i++){
             System.out.println("colores1[" + i + "] = " + colores1[i]);
         }
@@ -14,7 +16,7 @@ public class GeneralidadesArrays {
         }
         System.out.println("-------------------------------------");
 
-        // asignar valores
+        // Asignar valores a cada elemento
         colores2[0] = "azul";
         colores2[1] = "verde";
 
@@ -23,7 +25,7 @@ public class GeneralidadesArrays {
         }
         System.out.println("-------------------------------------");
 
-        // copiar una matriz en otra
+        // Copiar una array en otro
         for (int i = 0; i < colores1.length; i++){
             colores2[i] = colores1[i];
         }
@@ -32,12 +34,13 @@ public class GeneralidadesArrays {
         }
         System.out.println("-------------------------------------");
 
-        // inversa
-        // colores2[0] = colores1[4]
-        // colores2[1] = colores1[3]
-        // colores2[2] = colores1[2]
-        // colores2[3] = colores1[1]
-        // colores2[4] = colores1[0]
+        // Invertir un array
+            // Esquema visual
+            // colores2[0] = colores1[4]
+            // colores2[1] = colores1[3]
+            // colores2[2] = colores1[2]
+            // colores2[3] = colores1[1]
+            // colores2[4] = colores1[0]
         for (int i = 0; i < colores2.length; i++){
             int indice = colores2.length - i - 1;
             colores2[i] = colores1[indice];

@@ -68,14 +68,14 @@ public class EjemploArrayLIst {
 
 
     }
-
+    // Creacion metodo para recorrer
     public static void recorrer(ArrayList<Integer> num){
         for(int i = 0; i < num.size(); i++){
             System.out.println("num.get(" + i + ") = " + num.get(i));
         }
         System.out.println("-----------------------------");
     }
-
+    // Creacion de metodo para recorrer con iterator
     public static void recorreIterator(ArrayList<Integer> num){
         Iterator<Integer> iter = num.iterator();
         while (iter.hasNext()){

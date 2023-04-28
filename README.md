@@ -23,4 +23,4 @@ In the second part of the bootcamp, I was able to further develop my skills in S
 
 ## // Comments
 
-- The directories OOP and OPP2 include concepts and exercises about object-oriented programming in Java.
+- The directories POO and POO2 include concepts and exercises about object-oriented programming in Java.

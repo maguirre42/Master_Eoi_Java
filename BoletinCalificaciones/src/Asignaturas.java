@@ -1,4 +1,5 @@
 public enum Asignaturas {
+    // Declarar nombres asignaturas
     MATEMATICAS(25,"Matematicas"),
     FISICA(43,"Fisica  "),
     QUIMICA(44,"Quimica  "),

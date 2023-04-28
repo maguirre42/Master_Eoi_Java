@@ -7,9 +7,9 @@ public class EjercicioCapitalize {
         // 3 - Imprimir el nombre completo
 
         // Solución 1 -> "poco eficaz"
-        String nombre = "EDUARDO";
-        String apellido1 = "corral";
-        String apellido2 = "MuÑoZ";
+        String nombre = "MOISES";
+        String apellido1 = "aguirre";
+        String apellido2 = "PaRDo";
 
         nombre = nombre.substring(0, 1).toUpperCase() + nombre.substring(1).toLowerCase();
         apellido1 = apellido1.substring(0, 1).toUpperCase() + apellido1.substring(1).toLowerCase();

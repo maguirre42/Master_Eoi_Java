@@ -1,9 +1,9 @@
 public class Generalidades {
     public static void main(String[] args) {
         // Declaraciones
-        String nombre = new String("Eduardo");
+        String nombre = new String("Moises");
         System.out.println("nombre = " + nombre);
-        String apellido = "Corral";
+        String apellido = "Aguirre";
         System.out.println("apellido = " + apellido);
         
         // "escapar" las comillas
@@ -16,8 +16,8 @@ public class Generalidades {
         System.out.println("nombreCompleto = " + nombreCompleto);
         
         // Comparar
-        String uno = "Eduardo Corral";
-        String dos = new String("Eduardo Corral");
+        String uno = "Moises Aguirre";
+        String dos = new String("Moises Aguirre");
         //String dos = "Eduardo Corral";
         System.out.println("uno = " + uno);
         System.out.println("dos = " + dos);

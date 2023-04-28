@@ -1,5 +1,6 @@
 public class EjemploTryCatch {
     public static void main(String[] args) {
+        // Ejemplo try con multiples catchs
         int[] numeros = {1,2,0,4,5};
         try {
             for (int i = 0; i < numeros.length; i++) {

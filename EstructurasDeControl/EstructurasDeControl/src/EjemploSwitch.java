@@ -1,8 +1,9 @@
 public class EjemploSwitch {
     public static void main(String[] args) {
+        // Declaracion variables
         int mes = 4;
         String nombreMes = "";
-
+        // Declaracion estructura Switch
         switch (mes){
             case 1:
                 nombreMes = "Enero";

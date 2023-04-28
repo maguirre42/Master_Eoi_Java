@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class ClaveAlatoria {
+public class ClaveAleatoria {
     public static void main(String[] args) {
         System.out.println("El password es -> " + generaPass(10));
     }

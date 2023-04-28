@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class MetodosArrays{
     public static void main(String[] args) {
+        // En la siguiente clase examinaremos algunos métodos de la clase Arrays
         String[] colores1 = {"aZul","Rojo","verde","amarillo","naranja"};
         int[] numeros = {3,2,5,4,3,6};
         int[] numeros1 = {2,8,3,5,4,9};
@@ -27,7 +28,7 @@ public class MetodosArrays{
         System.out.println("Arrays.compare(numeros,numeros1) = " + Arrays.compare(numeros,numeros1));
         System.out.println("------------------------------");
         
-        // copiar
+        // Copiar
         int[] copia = Arrays.copyOf(numeros,numeros.length);
         for(int a:copia){
             System.out.println("a = " + a);
@@ -38,15 +39,14 @@ public class MetodosArrays{
             System.out.println("a = " + a);
         }
         System.out.println("------------------------------");
-        
-        // Rellenar
-        int[] miMatriz = new int[8];
-        for(int i:miMatriz){
+        // Rellenar array vacio
+        int[] miArray = new int[8];
+        for(int i:miArray){
             System.out.println("i = " + i);
         }
         System.out.println("------------------------------");
-        Arrays.fill(miMatriz,1);
-        for(int i:miMatriz){
+        Arrays.fill(miArray,1);
+        for(int i:miArray){
             System.out.println("i = " + i);
         }
 

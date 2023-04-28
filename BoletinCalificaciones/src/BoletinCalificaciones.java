@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -7,6 +7,7 @@ public class BoletinCalificaciones
 {
     public static void main(String[] args)
     {
+        // Main donde se ejecutan todos los metodos
         String datosEsc = datosEscuela();
         String datosAlumno = datosEstudiante();
         String datosBol = datosBoletin();
@@ -14,6 +15,7 @@ public class BoletinCalificaciones
     }
     public static String datosBoletin()
     {
+        // Asigna codigos a cada asignatura con su respectiva calificacion
         System.out.println("Codigos de asignatura: Matematicas = 25, Fisica = 43, Quimica = 44, Filosofia = 67, Historia = 88: ");
         ArrayList<LineaBoletin> boletin = new ArrayList<LineaBoletin>();
         float promedio = 0.0f;
@@ -86,6 +88,7 @@ public class BoletinCalificaciones
         }
         return sb.toString() + "\t\t\t\t\t" + "Calificacion: " + calificacionFinal + "\n" + "\t\t\t\t\t" + "Promedio: " + promedio;
     }
+    // Imprime en consola el boletin
     public static void imprimeBoletin(String escuela, String alumno, String bol)
     {
         System.out.println("\n" + escuela);
@@ -97,11 +100,13 @@ public class BoletinCalificaciones
         System.out.println(bol);
 
     }
+    // Recibe como input los datos sobre la escuela
     public static String datosEscuela()
     {
         Escuela miEscuela = new Escuela();
         return miEscuela.toString();
     }
+    // Recibe como input los datos del estudiante
     public static String datosEstudiante()
     {
         System.out.println("Introduce los datos del alumno");
@@ -112,12 +117,14 @@ public class BoletinCalificaciones
         Estudiante miEstudiante = new Estudiante(nombreCompleto,direccion,datosContacto,grupo);
         return miEstudiante.toString();
     }
+    // Metodo para abstraer la solicitud de datos en consola
     public static String introduceDato(String mensaje)
     {
         Scanner entrada = new Scanner(System.in);
         System.out.print(mensaje + ": ");
         return entrada.nextLine();
     }
+    // Define fecha
     public static String fechaHoy(){
         DateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
         String fecha = formato.format(new Date());

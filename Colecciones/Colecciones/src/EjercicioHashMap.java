@@ -3,8 +3,8 @@ import java.util.HashMap;
 
 
 public class EjercicioHashMap {
-    // partiendo de una lista email->usuario
-    // crear un método que localice el email introduciendo el nombre por consola o emergente
+    // Dada una lista email->usuario
+    // Crear un método que localice el email introduciendo el nombre por consola o emergente
     public static void main(String[] args) {
         // Introducir nombre a buscar
         String nombre;

@@ -20,3 +20,7 @@ In the second part of the bootcamp, I was able to further develop my skills in S
 - The repository includes directories that simulate an IntelliJ IDEA IDE environment which I used during my bootcamp.
 - Inside each directory, you can find topics related to Java programming concepts and exercises.
 - All files and directories are commented to facilitate understanding.
+
+## // Comments
+
+- The directories OOP and OPP2 include concepts and exercises about object-oriented programming in Java.

@@ -2,6 +2,7 @@ import java.util.Random;
 
 public class JavaUtilRandom {
     public static void main(String[] args) {
+        // Ejercicios JavaUtil random
         Random objetoRnd = new Random();
         int numInt = objetoRnd.nextInt();
         System.out.println("numInt = " + numInt);

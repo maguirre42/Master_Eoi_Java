@@ -60,7 +60,7 @@ public class EjemploRegEx {
         busquedaInsensitivo(patron,texto);
 
         // Email
-        texto = "eoi@corral.es";
+        texto = "eoi@aguirre.es";
         patron = "^[a-z0-9_]+[[a-z0-9_-]\\.]*\\@[a-z0-9_]+((-[a-z0-9_]+)|([a-z0-9_]*))\\.[a-z]{2,}$";
 
         busquedaInsensitivo(patron,texto);

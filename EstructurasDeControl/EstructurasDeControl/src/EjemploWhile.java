@@ -17,7 +17,7 @@ public class EjemploWhile {
         }while(contador <= 20);
         System.out.println("--------------------------");
 
-        // Recorrer matriz
+        // Recorrer array
         String[] coches = {"Volvo","Renault","Seat","Citroen"};
         // while
         int i = 0;
@@ -49,6 +49,7 @@ public class EjemploWhile {
         System.out.println("--------------------------");
 
         // break y continue
+        
         // break
         for(String marca:coches){
             if(marca == "Seat"){

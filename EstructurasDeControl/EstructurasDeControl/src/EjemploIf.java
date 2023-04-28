@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class EjemploIf {
     public static void main(String[] args) {
-//        // 1 - Defenir los datos válidos de usuario y password
-//        String usuario = "eduardo";
+//        // 1 - Definir los datos válidos de usuario y password
+//        String usuario = "moises";
 //        String password = "12345";
 //
 //        // 2 - Solicitar usuario y password por consola
